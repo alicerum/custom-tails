@@ -414,3 +414,8 @@ python3-yaml
 # needed for "Test speakers"
 libcanberra-pulse
 sound-theme-freedesktop
+
+
+# proxychains here
+proxychains
+dnsutils

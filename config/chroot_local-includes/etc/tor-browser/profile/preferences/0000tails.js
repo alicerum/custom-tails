@@ -8,6 +8,8 @@ pref("extensions.torbutton.settings_method", "custom");
 pref("extensions.torbutton.socks_port", 9150);
 pref("extensions.torbutton.use_privoxy", false);
 
+pref("extensions.torbutton.enabled", false);
+
 // Tails-specific configuration below
 
 // Since the slider notification will be shown everytime at each Tails
@@ -91,3 +93,5 @@ pref("browser.download.panel.shown", true);
 // open external applications, so let's not offer the option to the user,
 // and instead only propose them to save downloaded files.
 pref("browser.download.forbid_open_with", true);
+
+pref("network.proxy.socks_remote_dns", false);
